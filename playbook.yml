@@ -1,0 +1,4 @@
+- name: Test Playbook
+  hosts: all
+  tasks:
+   - ansible.builtin.ping: 
